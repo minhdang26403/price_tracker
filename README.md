@@ -1,1 +1,1 @@
-# price_tracker
+# Simple price tracker using Selenium

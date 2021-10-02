@@ -183,12 +183,7 @@ class AmazonAPI:
             print("Didn't get any products...")
             print(e)
             return links
-#//*[@id="search"]/div[1]/div/div[1]/div/span[3]/div[2]/div[1]/div/span/div/div/div[2]/div[2]/div/div[1]/h2/a
-#//*[@id="search"]/div[1]/div/div[1]/div/span[3]/div[2]/div[2]/div/span/div/div/div[2]/div[2]/div/div[1]/h2/a
-#//*[@id="search"]/div[1]/div/div[1]/div/span[3]/div[2]/div[7]/div/span/div/div/div[2]/div[2]/div/div[1]/h2/a
-#//*[@id="search"]/div[1]/div/div[1]/div/span[3]/div[2]/div[16]/div/span/div/div/div[2]/div[2]/div/div[1]/h2/a
-#//*[@id="search"]/div[1]/div/div[1]/div/span[3]/div[2]/div[1]/div/span/div/div/div[2]/div[2]/div/div[1]/h2/a - Trang 2
-#//div/span/div/div/div[2]/div[2]/div/div[1]/div/div/div[1]/h2/a
+
 if __name__ == '__main__':
     amazon = AmazonAPI(NAME, FILTERS, BASE_URL, CURRENCY)
     data = amazon.run()
